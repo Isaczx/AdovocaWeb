@@ -1,0 +1,51 @@
+/*https://www.figma.com/file/0RLeqUYXk4c7yRf4Jt7Ucp/Site-VLV-Advogados-(Community)?type=design&node-id=28-4&mode=design&t=UUg979JOlvv9A7y9-0*/
+
+:root{
+    --cor-primaria:#FFFFFF;
+    --cor-botao:#225795;
+}
+
+header{
+    width: 100%;
+    background-color: var(--cor-primaria);
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+}
+
+.logo{
+    width: 166px;
+    height: 50px;
+    padding-right: 15px;
+}
+
+#logo{
+   width: 40%;
+}
+
+
+li{
+    display: flex;
+    font-size: 0.8rem;
+    width: 40%;
+    font-weight: bold;
+    margin-top: 1.5%;
+}
+
+li ul:hover{
+    cursor: pointer;
+}
+
+.btn{
+    width: 15%;
+    height: 56px;
+}
+
+#botao{
+    background-color: var(--cor-botao);
+}
